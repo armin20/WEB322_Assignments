@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&family=Poppins:wght@500&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fafaff; /*Ghost White Background Color*/
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+.container-fluid {
+  background-color: #ece9ea;
+}
+.about_style,
+.home_style {
+  font-family: "Mate SC", serif;
+  font-size: larger;
+}
+.about_style:hover,
+.home_style:hover {
+  background-color: lightgray;
+  font-style: italic;
+  font-family: "Mate SC", serif;
+}
+.nav_right {
+  font-family: "Mate SC", serif;
+  font-size: larger;
+}
+.nav_right:hover {
+  font-style: italic;
+  background-color: lightgray;
+  font-family: "Mate SC", serif;
+}
